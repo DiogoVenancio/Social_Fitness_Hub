@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/social_fitness_hub"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/menu_div_opac"
+        android:backgroundTintMode="src_over">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:id="@+id/weeklyChallengeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@null"
+                    android:contentDescription="@string/weekly_challenge"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/weekly_challenge" />
+
+                <TextView
+                    android:id="@+id/weeklyChallengeTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/weekly_challenge"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/groupActivitiesButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@null"
+                    android:contentDescription="@string/group_activities"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/group_activities" />
+
+                <TextView
+                    android:id="@+id/groupActivitiesTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/group_activities"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/hidrateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@null"
+                    android:contentDescription="@string/hidrate"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/water_bottle" />
+
+                <TextView
+                    android:id="@+id/hidrateTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/hidrate"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/sedentaryLifestyleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@null"
+                    android:contentDescription="@string/sedentary_lifestyle_monitor"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sedentary_lifestyle" />
+
+                <TextView
+                    android:id="@+id/sedentaryLifestyleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/sedentary_lifestyle_monitor"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/partnerFinderButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/partnerFinderButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@null"
+                    android:contentDescription="@string/partner_finder"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/partner_finder" />
+
+                <TextView
+                    android:id="@+id/partnerFinderTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/partner_finder"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:id="@+id/settingsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@null"
+                    android:contentDescription="@string/title_profile"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/boy" />
+
+                <TextView
+                    android:id="@+id/settingsTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/title_profile"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

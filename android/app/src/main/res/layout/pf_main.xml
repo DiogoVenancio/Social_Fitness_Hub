@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PartnerFinder.PartnerFinderActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/MainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/use_the_partner_finder_to_find_partners_for_your_favourite_activities_go_have_some_fun_use_the_map_to_find_activities_near_you"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="129dp"
+            android:layout_height="172dp"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/add_activity"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:contentDescription="@string/plus_main_page_partner_finder"
+                app:srcCompat="@drawable/plus" />
+
+            <TextView
+                android:id="@+id/add_activity_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plus_text_main_page_partner_finder"
+                android:textSize="14sp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="129dp"
+            android:layout_height="172dp"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/search_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:contentDescription="@string/partners_main_page_partner_finder"
+                app:srcCompat="@drawable/search" />
+
+            <TextView
+                android:id="@+id/search_activity_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_activity_text_main_page_partner_finder"
+                android:textSize="14sp"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="129dp"
+            android:layout_height="172dp"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:contentDescription="@string/stats_main_page_partner_finder"
+                app:srcCompat="@drawable/map" />
+
+            <TextView
+                android:id="@+id/map_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/map_text_partners_text_main_page_partner_finder"
+                android:textSize="14sp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="129dp"
+            android:layout_height="172dp"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/stats"
+                android:layout_width="134dp"
+                android:layout_height="145dp"
+                android:contentDescription="@string/map_main_page_partner_finder"
+                app:srcCompat="@drawable/student" />
+
+            <TextView
+                android:id="@+id/stats_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stats_text_partners_text_main_page_partner_finder"
+                android:textSize="14sp"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

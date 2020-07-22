@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Social Fitness Hub</string>
+
+    <string name="channel_name">notificacion channel</string>
+    <string name="channel_description">notification channel description</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
+    </string>
+    <string name="title_activity_hidrate">Hidrate</string>
+    <string name="title_activity_main">Social Fitness Hub</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to Application Main Page -->
+    <string name="social_fitness_hub">SOCIAL FITNESS HUB</string>
+    <string name="hidrate">Hidrate</string>
+    <string name="weekly_challenge">Random Challenge</string>
+    <string name="sedentary_lifestyle_monitor">Sedentary Lifestyle Monitor</string>
+    <string name="partner_finder">Partner Finder</string>
+    <string name="settings">Settings</string>
+    <string name="group_activities">Group Activities</string>
+
+
+    <!-- Strings related to Partner Finder MAIN PAGE -->
+    <string name="title_activity_partner_finder">Partner Finder</string>
+    <string name="title_main_page_partner_finder">Definition</string>
+    <string name="definition_main_page_partner_finder">Through the locatization the user searches for partners for a specific type of training</string>
+    <string name="option_main_page_partner_finder">Select an option</string>
+    <string name="plus_main_page_partner_finder">PLUS</string>
+    <string name="plus_text_main_page_partner_finder">Create activity</string>
+    <string name="partners_main_page_partner_finder">PARTNER</string>
+    <string name="search_activity_text_main_page_partner_finder">Search Activities</string>
+    <string name="map_main_page_partner_finder">MAP</string>
+    <string name="map_text_partners_text_main_page_partner_finder">Map</string>
+    <string name="stats_main_page_partner_finder">STATS</string>
+    <string name="stats_text_partners_text_main_page_partner_finder">Stats</string>
+    <string name="title_activity_create">CreateActivity</string>
+
+
+    <!-- Strings related to Partner Finder CREATE ACTIVITY PAGE -->
+    <string name="create_create_activity_partner_finder">Create Activity</string>
+    <string name="event_text_box_create_activity_partner_finder">Event\'s name</string>
+    <string name="location_text_box_create_activity_partner_finder">Location</string>
+    <string name="date_text_box_create_activity_partner_finder">Date</string>
+    <string name="google_place_api">AIzaSyBCaU5maDWx087917uAFGHf4kIihnev_Dk</string>
+    <string name="cancel_create_activity_partner_finder">CANCEL</string>
+    <string name="accept_create_activity_partner_finder">ACCEPT</string>
+
+    <!-- Strings related to Partner Finder MAP PAGE -->
+    <string name="map_activity_partner_finder">Map</string>
+    <string name="dropped_pin">Map</string>
+    <string name="running_text_map_page_partner_finder">Running</string>
+    <string name="cycling_text_map_page_partner_finder">Cycling</string>
+    <string name="soccer_text_map_page_partner_finder">Soccer</string>
+    <string name="swimming_text_map_page_partner_finder">Swimming</string>
+    <string name="tennis_text_map_page_partner_finder">Tennis</string>
+    <string name="surf_text_map_page_partner_finder">Surf</string>
+    <string name="golf_text_map_page_partner_finder">Golf</string>
+    <string name="volleyball_text_map_page_partner_finder">Volleyball</string>
+    <string name="basketball_text_map_page_partner_finder">Basketball</string>
+    <string name="addsport_text_map_page_partner_finder">Add Sport</string>
+    <string name="button_text_map_page_partner_finder">View All</string>
+
+    <string name="viewall_map_activity_partner_finder">View Activities</string>
+
+    <!-- Strings related to Partner Finder STATS PAGE -->
+    <string name="stats_activity_partner_finder">Stats</string>
+    <string name="tab_text_1">My Activity</string>
+    <string name="tab_text_2">Sports</string>
+    <string name="button_add_activity_stats_activity_partner_finder">Add Activity</string>
+    <string name="button_add_partner_stats_activity_partner_finder">Add Partner</string>
+    <string name="button_add_sport_stats_activity_partner_finder">Add Sport</string>
+
+    <string name="event_stats_activity_partner_finder">Event</string>
+    <string name="location_stats_activity_partner_finder">Location</string>
+    <string name="date_stats_activity_partner_finder">Date</string>
+    <string name="sport_stats_activity_partner_finder">Sport</string>
+
+    <!-- Strings related to Partner Finder FIND PARTNER PAGE -->
+
+    <string name="all_activities_activity_partner_finder">All Activities</string>
+
+    <!-- Strings related to Partner Finder ACTIVITY PAGE -->
+    <string name="event_name_view_activity_page_partner_finder">All Activities</string>
+    <string name="nickname_view_activity_page_partner_finder">Nickname</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_group_activity">Group Activity</string>
+    <string name="title_company_activity">Companies</string>
+    <string name="title_company_add_activity">Add Group Activity</string>
+    <string name="title_company_detail_activity">Company Details</string>
+    <string name="title_group_create_activity">Create Group Activity</string>
+
+    <!-- Strings related to Partner Finder EDIT ACTIVITY -->
+    <string name="title_edit_page_partner_finder">Edit Activity</string>
+
+
+    <string name="find_partners_activity_partner_finder">Find Partners</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="sport">Sport</string>
+    <string name="remove">REMOVE</string>
+    <string name="create_group_activity">Create Group Activity</string>
+    <string name="companies">Companies</string>
+    <string name="ok">Ok</string>
+    <string name="ml">ml</string>
+    <string name="set">Set</string>
+    <string name="notification_interval">Notification Interval</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="username">Username</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="height">Height</string>
+    <string name="meters">Meters</string>
+    <string name="weight">Weight</string>
+    <string name="kg">Kg</string>
+
+    <!-- SLM -->
+    <string name="slm_status_message_active">You are active!</string>
+    <string name="slm_status_message_sedentary">You are sedentary!</string>
+    <string name="slm_tips_sedentary_working">
+        Here are some tips to help you be less sedentary:\n
+        - Get up and go take a small walk around the office.\n
+        - Try to do some stretching.\n
+        - Got to the bathroom.\n
+    </string>
+    <string name="slm_tips_sedentary">
+        Here are some tips to help you be less sedentary:\n
+        - Go buy some groceries.\n
+        - Get up for a run.\n
+        - Go find a partner to exercise using our app.\n
+        - Go play with your pet.\n
+    </string>
+    <string name="use_the_partner_finder_to_find_partners_for_your_favourite_activities_go_have_some_fun_use_the_map_to_find_activities_near_you">Use the partner finder to find partners for your favourite activities. Go have some fun! Use the map to find activities near you.</string>
+
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "804863069347",
+    "firebase_url": "https://social-fitness-hub.firebaseio.com",
+    "project_id": "social-fitness-hub",
+    "storage_bucket": "social-fitness-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804863069347:android:026de6e275f49662",
+        "android_client_info": {
+          "package_name": "cm.socialfitnesshub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804863069347-3lebolh2s76uo5pk43lvfgnbf68oe9vb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cm.socialfitnesshub",
+            "certificate_hash": "1e851237e95b1e341590484639e4ba7495da7790"
+          }
+        },
+        {
+          "client_id": "804863069347-jhfepmpuqj94m4d98uh1cq6ep3c5a3m0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx0CXj_z-2u_EzSt9QeSy4w_ARMN7hKlM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804863069347-jhfepmpuqj94m4d98uh1cq6ep3c5a3m0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
